@@ -3,7 +3,7 @@ MAINTAINER Alexander Panin <justheuristic@gmail.com>
 
 RUN /bin/bash --login -c "\
     source activate jupyterhub_py3 && \ 
-    conda install --update jupyter && \
+    conda update jupyter && \
     pip install --upgrade pip && \
     pip install rep \
     "
